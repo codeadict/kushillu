@@ -17,7 +17,7 @@ Run the following:
 
     cd /var/www/
     git clone git@github.com:codeadict/kushillu.git
-    cd ci-donkey/
+    cd kushillu/
     virtualenv env
     source env/bin/activate
     pip install -r requirements.txt 
