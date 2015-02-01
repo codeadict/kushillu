@@ -1,0 +1,156 @@
+.navbar {
+    background-color: white;
+    border-radius: 15px 15px 0px 0px;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.navbar-collapse {
+    padding: 0px 20px;
+}
+
+.navbar-default .navbar-brand {
+    color: black;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+    background-color: white;
+    font-weight: 700;
+}
+
+.container {
+    background-color: #eee;
+    margin-top: 60px;
+    margin-bottom: 100px;
+    box-shadow: 0 0 30px #aaa;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+}
+
+.content {
+    padding: 0px 20px 50px 20px;
+}
+
+pre {
+	background-color: white;
+	overflow: visible;
+}
+
+.sidebar {
+    margin-top: 5px;
+}
+
+.sidebar.affix {
+    position: fixed;
+    top: 0px;
+    width: 17%;
+}
+
+.sidebar.affix a:hover, .sidebar.affix a:focus {
+	background: none !important;
+}
+
+.sidebar a {
+    color: #666;
+    padding: 4px 15px !important;
+}
+
+.sidebar .active a {
+    font-weight: 700;
+    color: black;
+}
+
+.sec {
+    margin-top: 10px;
+}
+
+table {
+    background-color: white;
+}
+
+table.history td{
+    width: 16%;
+}
+
+table.history td:first-child {
+    width: 18%;
+}
+
+table.history td:nth-child(4) {
+    max-width: 100px;
+    white-space: nowrap;
+    overflow: hidden !important;
+    text-overflow: ellipsis;
+}
+
+table.history td:nth-child(n+5) {
+    text-align: center;
+    width: 11%;
+}
+
+
+.glyphicon-ok {
+    color: green;
+}
+
+.glyphicon-remove {
+    color: red;
+}
+
+.build-output {
+    min-height: 300px;
+    overflow: auto;
+}
+
+#pre-build {
+    max-height: 400px;
+}
+
+.build-script {
+    height: 150px;
+    overflow: auto;
+}
+
+.spinner {
+    margin: -10px 0;
+    top: -5px;
+    width: 22px;
+    height: 22px;
+    position: relative;
+}
+
+.detail-item label {
+  float: left;
+  color: #9C9C9C;
+  font-weight: normal;
+  margin-right: 8px;
+  margin-bottom: 0px;
+}
+
+.detail-item .detail-info {
+  margin-left: 130px;
+}
+
+.detail-item .one-line {
+  white-space: nowrap;
+  overflow: hidden !important;
+  text-overflow: ellipsis;
+}
+
+@media (max-width: 760px){
+
+    .container {
+        margin-top: 0px;
+        box-shadow: none;
+        border: none;
+        border-radius: 0px;
+        margin-bottom: 0px;
+    }
+    
+    .navbar {
+        border-radius: 0px;
+    }
+    
+    .content {
+        padding: 0px 10px;
+    }
+}
