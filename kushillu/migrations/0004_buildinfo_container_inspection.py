@@ -7,7 +7,7 @@ from django.db import models, migrations
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('cidonkey', '0003_remove_buildinfo_docker_started'),
+        ('kushillu', '0003_remove_buildinfo_docker_started'),
     ]
 
     operations = [

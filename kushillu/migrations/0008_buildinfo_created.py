@@ -8,7 +8,7 @@ import datetime
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('cidonkey', '0007_auto_20141105_2136'),
+        ('kushillu', '0007_auto_20141105_2136'),
     ]
 
     operations = [

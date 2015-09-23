@@ -3,7 +3,7 @@ BASE_DIR = os.path.dirname(__file__)
 
 SECRET_KEY = '!!! change me in localsettings.py !!!'
 
-DEBUG = False
+DEBUG = True
 TEMPLATE_DEBUG = DEBUG
 
 # you should set this in localsettings.py

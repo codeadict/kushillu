@@ -1,6 +1,6 @@
 import hashlib
 import hmac
-from cidonkey.cid import UPDATE_CONTEXT
+from kushillu.cid import UPDATE_CONTEXT
 import requests
 import json
 from requests.packages.urllib3.exceptions import ConnectionError

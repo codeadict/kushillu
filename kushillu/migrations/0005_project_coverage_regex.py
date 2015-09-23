@@ -7,7 +7,7 @@ from django.db import models, migrations
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('cidonkey', '0004_buildinfo_container_inspection'),
+        ('kushillu', '0004_buildinfo_container_inspection'),
     ]
 
     operations = [

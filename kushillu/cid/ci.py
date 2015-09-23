@@ -15,7 +15,7 @@ import requests
 import os
 import zipfile
 
-from cidonkey.models import BuildInfo
+from kushillu.models import BuildInfo
 
 from . import cidocker, github, common
 from settings import MAX_CONCURRENT_BUILDS
